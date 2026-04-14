@@ -1,109 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Komal Gupta | Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komal Gupta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav>
-  <h2>Komal Gupta</h2>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+<header>
+    <nav>
+        <h2 class="logo">Komal Gupta</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeToggle">🌙</button>
+    </nav>
+</header>
 
-<!-- Hero -->
-<section class="hero">
-  <h1>Komal Gupta</h1>
-  <h3>Web Developer | MCA Student | Front-End Specialist</h3>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm <span>Komal Gupta</span></h1>
+        <p>Web Developer | PHP | WordPress | React</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
 </section>
 
-<!-- About -->
 <section id="about">
-  <h2>About Me</h2>
-  <p>
-    I'm a web designer and developer with 2.5+ years of experience in building static and dynamic websites.
-    I specialize in responsive design, CMS platforms, and user-friendly web solutions tailored to client needs.
-  </p>
+    <h2>About Me</h2>
+    <p>
+        Passionate Web Developer with experience in building scalable and responsive websites.
+        Skilled in PHP, JavaScript, and modern frontend frameworks with a strong focus on performance and UI.
+    </p>
 </section>
 
-<!-- Skills -->
-<section id="skills">
-  <h2>Core Skills</h2>
-  <div class="grid">
-    <div>HTML</div>
-    <div>CSS</div>
-    <div>PHP</div>
-    <div>jQuery</div>
-    <div>MySQL</div>
-    <div>WordPress</div>
-    <div>Shopify</div>
-    <div>WooCommerce</div>
-  </div>
-</section>
-
-<!-- Experience -->
 <section id="experience">
-  <h2>Professional Experience</h2>
+    <h2>Experience</h2>
 
-  <div class="card">
-    <h3>Asia Web Solution</h3>
-    <p><b>WordPress, PHP Developer (Feb 2023 – Aug 2023)</b></p>
-    <ul>
-      <li>Converted HTML to WordPress themes</li>
-      <li>Customized plugins & themes</li>
-      <li>Built WooCommerce stores</li>
-    </ul>
-  </div>
+    <div class="card">
+        <h3>Himalayan Hikers</h3>
+        <p>Web Developer (2025–2026)</p>
+        <p>Improved website speed by 30% and handled full-stack development.</p>
+    </div>
 
-  <div class="card">
-    <h3>Rankmantra</h3>
-    <p><b>Web Developer (Oct 2021 – Feb 2023)</b></p>
-    <ul>
-      <li>PSD to HTML/CSS/PHP development</li>
-      <li>Created custom CMS dashboard</li>
-      <li>Improved website UI/UX</li>
-    </ul>
-  </div>
+    <div class="card">
+        <h3>Rankmantra</h3>
+        <p>Web Developer (2022–2024)</p>
+        <p>Developed healthcare portals and improved responsiveness.</p>
+    </div>
 
-  <div class="card">
-    <h3>Royal Developer</h3>
-    <p><b>Front-End Developer (Sep 2020 – Oct 2021)</b></p>
-    <ul>
-      <li>Developed WordPress themes</li>
-      <li>Improved UI/UX layouts</li>
-    </ul>
-  </div>
+    <div class="card">
+        <h3>Royal Developer</h3>
+        <p>Web Developer (2021–2022)</p>
+        <p>Built 10+ websites and customized WordPress solutions.</p>
+    </div>
 
 </section>
 
-<!-- Education -->
-<section>
-  <h2>Education</h2>
-  <p>MCA – Chandigarh University (Pursuing)</p>
-  <p>BCA – Uttarakhand Open University</p>
-  <p>Diploma – Govt. Polytechnic Dehradun</p>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+        <div class="card">
+            <h3>Himalayan Hikers Website</h3>
+            <p>WordPress to Core PHP migration with backend improvements.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hospital Portal</h3>
+            <p>Secure PHP & MySQL-based portal with dynamic data management.</p>
+        </div>
+
+        <div class="card">
+            <h3>Business Websites</h3>
+            <p>Developed multiple responsive client websites with SEO optimization.</p>
+        </div>
+    </div>
 </section>
 
-<!-- Contact -->
 <section id="contact">
-  <h2>Contact</h2>
-  <p>📞 7465949789</p>
-  <p>📧 komalgupta9825@gmail.com</p>
-  <p>📍 Dehradun, Uttarakhand</p>
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <p>Email: komalgupta9825@gmail.com</p>
+    <p>Phone: +91-7465949789</p>
+    <p>LinkedIn: linkedin.com/in/komal-gupta-wordpress-developer</p>
 </section>
 
-<!-- Footer -->
 <footer>
-  <p>© 2026 Komal Gupta</p>
+    <p>© 2026 Komal Gupta</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
